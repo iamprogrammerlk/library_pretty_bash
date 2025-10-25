@@ -10,9 +10,9 @@
 
 <br><br>
 
-# {{PROJECT_TITLE}}
+# Library Pretty Bash
 
-{{PROJECT_DESCRIPTION}}
+A collection of scripts designed to enhance the visual appeal of your upcoming Bash script project.
 
 > [!TIP]
 >
