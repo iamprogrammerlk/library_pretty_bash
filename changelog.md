@@ -19,3 +19,9 @@
 - Fixed: #GITHUB_ISSUE_ID
 
 -->
+
+## v25.10.00 - 2025-10-25
+
+### Added
+
+- First release of library_pretty_bash
