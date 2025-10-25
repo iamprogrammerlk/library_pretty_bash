@@ -7,7 +7,7 @@ set -euo pipefail
 
 export APP_NAME="Library Pretty Bash"
 export APP_SLUG="library_pretty_bash"
-export APP_VERSION="1.0.0"
+export APP_VERSION="25.10.00"
 # export APP_ROOT=$(pwd)
 # export APP_ROOT=$(dirname "$0")
 # These method ensure you get the directory of the script, even if it's executed from a different location.
