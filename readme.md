@@ -3,7 +3,7 @@
 <br><br>
 
 <div align="center" style="text-align: center;">
-  <a href="https://iamprogrammer.lk">
+  <a href="https://iamprogrammer.lk/library_pretty_bash">
     <img src="https://avatars.githubusercontent.com/u/17584831?v=4" alt="iamprogrammer.lk" width="200">
   </a>
 </div>
@@ -19,6 +19,70 @@ A collection of scripts designed to enhance the visual appeal of your upcoming B
 > ## ⭐ Star This Repository
 >
 > If you enjoy this project and my work, please consider supporting me giving a ⭐ star ⭐ to this repository.
+
+# 🪧 Usage
+
+## Option 01 (Recommended)
+
+- Use the official [template repository][template_bash_script] and start building
+
+  ```
+  git clone --recurse-submodules https://github.com/iamprogrammerlk/template_bash_script.git
+  ```
+
+> [!IMPORTANT]
+>
+> Don't forget the `--recurse-submodules` option,
+
+If you already cloned the project and forgot `--recurse-submodules`, You must run following two commands from
+the main project `git submodule init` to initialize your local configuration file, and `git submodule update` to
+fetch all the files from the `template_bash_script` project, you can use the foolproof
+`git submodule update --init --recursive` command to also initialize, fetch and checkout any nested submodules.
+
+- Run the following command time to time in your project to keep up to date with the latest version of
+  the Pretty Bash Library.
+
+  ```
+  git submodule update --remote
+  ```
+
+## Option 02
+
+- Adding the library to an existing git project as a submodule.
+
+  ```
+  git submodule add https://github.com/iamprogrammerlk/library_pretty_bash.git library_pretty_bash
+  ```
+
+  This command clones the `library_pretty_bash` repository into the specified path
+  and records it in the `.gitmodules` file and the parent's index.
+
+- Run the following command time to time in your project to keep up to date with the latest version of
+  the Pretty Bash Library.
+
+  ```
+  git submodule update --remote
+  ```
+
+<br><p align="right">(<a href="#readme-top">👆 back to top 👆</a>)</p>
+
+---
+
+# 🪏 Examples
+
+Open the `library_pretty_bash/source/playground.sh` file to play around.
+
+- Make the 'playground.sh' script executable
+
+  ```
+  sudo chmod +x library_pretty_bash/source/playground.sh
+  ```
+
+- Then run
+
+  ```
+  ./library_pretty_bash/source/playground.sh
+  ```
 
 <br><p align="right">(<a href="#readme-top">👆 back to top 👆</a>)</p>
 
@@ -152,3 +216,4 @@ See [license][license_md] for more information.
 [license]: https://choosealicense.com/licenses/wtfpl/
 [license_md]: /license.md
 [security_advisories]: /../../security/advisories/new
+[template_bash_script]: https://github.com/iamprogrammerlk/template_bash_script
